@@ -4,9 +4,9 @@ from discord_slash import SlashCommnads
 from discord_slash import SlashContext
 import requests
 import json
-api_key = '77a79b9acc8e4bb8a4fa3b374444bf46'  # from https://twelvedata.com/
+api_key = "" from https://twelvedata.com
 client = discord.Client()
-TOKEN = 'OTg2MTY1NzU5MDY1NjAwMDQw.GfHcjs._Cd_S6BhbP-Vwi1mGgn9uQNKLPLdw4gGQeEVWY' #discord API Token
+TOKEN =  #discord API Token
 bot = commands.Bot(command_prefix='/', intents = discord.Intentes.all())
 slash_client = SlashCommnad(bot,sync_commands=True)
 
